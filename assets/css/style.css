@@ -17,6 +17,16 @@ h1 {
     color:red;
 }
 
+.summary_line {
+    width: 80vw;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+.summary_line_score {
+    float: right;
+}
+
 #result_hdg {
     font-size: 1em;
     font-weight: .05em;
@@ -26,4 +36,14 @@ h1 {
 #total_score {
     font-size: 3rem;
     font-weight: 2rem;    
+}
+
+#summary_groups {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+#reaction {
+    color:  hsl(0, 100%, 67%);
+    background-color:  hsla(0, 100%, 67%, 0.132);
 }
