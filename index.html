@@ -14,14 +14,7 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
+    
   </style>
 </head>
 
@@ -30,7 +23,8 @@
   <h1>Results Summary</h1> <!--hidden, for accessibility only-->
 
   <main>
-    <section class="panel"> <!-- Result Panel-->
+    <span>
+    <section class="panel" id="result_pnl"> <!-- Result Panel-->
 
       <div id="result_hdg"> <!--result panel heading-->
         Your Result
@@ -57,8 +51,10 @@
       </div> <!--/result feedback-->
 
     </section> <!-- /Result Panel-->
+  </span>
 
-    <section class="panel"> <!-- summary Panel-->
+  <span>
+    <section class="panel" id = "summary_pnl"> <!-- summary Panel-->
 
       <div id="summary_hdg"> <!--summary panel heading-->
         <h2>Summary</h2>
@@ -87,6 +83,7 @@
       </button>
 
     </section> <!-- /summary Panel-->
+  </span>
   </main>
 
   <div class="attribution">

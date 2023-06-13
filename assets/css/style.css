@@ -3,13 +3,24 @@
     src: url(/assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
 }
 
+/* housekeeping and variables */
 
-body {
+
+html, body {
     font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 62.5%; /*sets the base font-size(rem) to 10px so 2.1rem = 21px*/
+    margin: 0;
+    box-sizing: border-box;
 }
 
+/* ask Danilo about hidden h1 */
 h1 {
     display: none;
+}
+
+.panel {
+    border-radius: 1.2rem;
+    background-color: chartreuse;
 }
 
 .panel h2 {
@@ -28,9 +39,8 @@ h1 {
 }
 
 #result_hdg {
-    font-size: 1em;
-    font-weight: .05em;
-    color:aquamarine;    
+    font-size: 1.25em;
+    color:yellow;  
 }
 
 #total_score {
@@ -47,3 +57,14 @@ h1 {
     color:  hsl(0, 100%, 67%);
     background-color:  hsla(0, 100%, 67%, 0.132);
 }
+
+
+/* From Frontend Mentor */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
