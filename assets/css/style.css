@@ -12,6 +12,16 @@ h1 {
     display: none;
 }
 
+.panel {
+    width: 18rem;
+    height: 26rem;
+    margin: 0 auto;
+    border-radius: 1.2rem;
+    background-color: #00a2ff24;
+    padding: 2rem; /* Adds padding between contents of section and border of section */
+    text-align: center;
+}
+
 .panel h2 {
     font-size: 1em;
     color:red;
